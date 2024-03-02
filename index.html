@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wordle</title>
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="menu"><img src="mesu.svg" alt="" /></div>
+      <div class="wordle">Wordle</div>
+      <div class="header-icons">
+        <img src="question.svg" alt="" />
+        <img src="chart.svg" alt="" />
+        <img src="setting.svg" alt="" />
+      </div>
+    </header>
+
+    <main>
+      <div id="timer">00:00</div>
+      <div class="board-row row-0">
+        <div class="board-block" data-index="00"></div>
+        <div class="board-block" data-index="01"></div>
+        <div class="board-block" data-index="02"></div>
+        <div class="board-block" data-index="03"></div>
+        <div class="board-block" data-index="04"></div>
+      </div>
+      <div class="board-row row-1">
+        <div class="board-block" data-index="10"></div>
+        <div class="board-block" data-index="11"></div>
+        <div class="board-block" data-index="12"></div>
+        <div class="board-block" data-index="13"></div>
+        <div class="board-block" data-index="14"></div>
+      </div>
+      <div class="board-row row-2">
+        <div class="board-block" data-index="20"></div>
+        <div class="board-block" data-index="21"></div>
+        <div class="board-block" data-index="22"></div>
+        <div class="board-block" data-index="23"></div>
+        <div class="board-block" data-index="24"></div>
+      </div>
+      <div class="board-row row-3">
+        <div class="board-block" data-index="30"></div>
+        <div class="board-block" data-index="31"></div>
+        <div class="board-block" data-index="32"></div>
+        <div class="board-block" data-index="33"></div>
+        <div class="board-block" data-index="34"></div>
+      </div>
+      <div class="board-row row-4">
+        <div class="board-block" data-index="40"></div>
+        <div class="board-block" data-index="41"></div>
+        <div class="board-block" data-index="42"></div>
+        <div class="board-block" data-index="43"></div>
+        <div class="board-block" data-index="44"></div>
+      </div>
+      <div class="board-row row-5">
+        <div class="board-block" data-index="50"></div>
+        <div class="board-block" data-index="51"></div>
+        <div class="board-block" data-index="52"></div>
+        <div class="board-block" data-index="53"></div>
+        <div class="board-block" data-index="54"></div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="a 0">
+        <div class="alphabet" data-key="Q">Q</div>
+        <div class="alphabet" data-key="W">W</div>
+        <div class="alphabet" data-key="E">E</div>
+        <div class="alphabet" data-key="R">R</div>
+        <div class="alphabet" data-key="T">T</div>
+        <div class="alphabet" data-key="Y">Y</div>
+        <div class="alphabet" data-key="U">U</div>
+        <div class="alphabet" data-key="I">I</div>
+        <div class="alphabet" data-key="O">O</div>
+        <div class="alphabet" data-key="P">P</div>
+      </div>
+
+      <div class="a 1">
+        <div class="alphabet" data-key="A">A</div>
+        <div class="alphabet" data-key="S">S</div>
+        <div class="alphabet" data-key="D">D</div>
+        <div class="alphabet" data-key="F">F</div>
+        <div class="alphabet" data-key="G">G</div>
+        <div class="alphabet" data-key="H">H</div>
+        <div class="alphabet" data-key="J">J</div>
+        <div class="alphabet" data-key="K">K</div>
+        <div class="alphabet" data-key="L">L</div>
+      </div>
+
+      <div class="a 2">
+        <div class="alphabet A" data-key="ENTER">ENTER</div>
+        <div class="alphabet" data-key="Z">Z</div>
+        <div class="alphabet" data-key="X">X</div>
+        <div class="alphabet" data-key="C">C</div>
+        <div class="alphabet" data-key="V">V</div>
+        <div class="alphabet" data-key="B">B</div>
+        <div class="alphabet" data-key="N">N</div>
+        <div class="alphabet" data-key="M">M</div>
+        <div class="alphabet" data-key="BACK">
+          <div class="back-space-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#000"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 9.75 14.25 12m0 0 2.25 2.25M14.25 12l2.25-2.25M14.25 12 12 14.25m-2.58 4.92-6.374-6.375a1.125 1.125 0 0 1 0-1.59L9.42 4.83c.21-.211.497-.33.795-.33H19.5a2.25 2.25 0 0 1 2.25 2.25v10.5a2.25 2.25 0 0 1-2.25 2.25h-9.284c-.298 0-.585-.119-.795-.33Z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
